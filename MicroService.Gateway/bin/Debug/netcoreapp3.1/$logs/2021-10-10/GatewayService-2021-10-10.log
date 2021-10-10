@@ -1,0 +1,16 @@
+2021-10-10 15:32:16.3553|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-10 15:32:16.3978|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 15:32:16.3978|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 15:32:16.4187|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-10 15:32:45.8096|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|INFO|requestId: 0HMCBO0JGK6RL:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{url} 
+2021-10-10 15:32:45.8096|Ocelot.Authentication.Middleware.AuthenticationMiddleware|INFO|requestId: 0HMCBO0JGK6RL:00000001, previousRequestId: no previous request id, message: No authentication needed for /AggregateService/api/Aggregate 
+2021-10-10 15:32:45.8252|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|INFO|requestId: 0HMCBO0JGK6RL:00000001, previousRequestId: no previous request id, message: /{url} route does not require user to be authorised 
+2021-10-10 15:32:52.6953|Ocelot.Requester.Middleware.HttpRequesterMiddleware|INFO|requestId: 0HMCBO0JGK6RL:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Aggregate 
+2021-10-10 15:42:58.5737|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-10 15:42:58.6058|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 15:42:58.6058|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 15:42:58.6155|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-10 15:43:16.0871|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|INFO|requestId: 0HMCBO6F8V3E2:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{url} 
+2021-10-10 15:43:16.1350|Ocelot.Authentication.Middleware.AuthenticationMiddleware|INFO|requestId: 0HMCBO6F8V3E2:00000001, previousRequestId: no previous request id, message: No authentication needed for /AggregateService/api/Aggregate 
+2021-10-10 15:43:16.1611|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|INFO|requestId: 0HMCBO6F8V3E2:00000001, previousRequestId: no previous request id, message: /{url} route does not require user to be authorised 
+2021-10-10 15:43:24.4104|Ocelot.Requester.Middleware.HttpRequesterMiddleware|INFO|requestId: 0HMCBO6F8V3E2:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Aggregate 

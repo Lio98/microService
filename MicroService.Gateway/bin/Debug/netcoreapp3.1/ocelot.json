@@ -1,0 +1,14 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/AggregateService/{url}",
+      "UpstreamHttpMethod": [ "Get","Post" ],
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "https",
+      "ServiceName": "AggregateService",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    }
+  ]
+}

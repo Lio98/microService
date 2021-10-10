@@ -1,0 +1,10 @@
+﻿{
+  "SkyWalking": {
+    "ServiceName": "ContentService",
+    "Transport": {
+      "gRPC": {
+        "Servers": "localhost:11800"
+      }
+    }
+  }
+}

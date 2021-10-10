@@ -1,0 +1,16 @@
+D:\公开课专题\微服务专题\微服务4\分布式事务\servicecomb-pack-csharp-omega_v0.1\src\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.deps.json
+D:\公开课专题\微服务专题\微服务4\分布式事务\servicecomb-pack-csharp-omega_v0.1\src\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.dll
+D:\公开课专题\微服务专题\微服务4\分布式事务\servicecomb-pack-csharp-omega_v0.1\src\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.pdb
+D:\公开课专题\微服务专题\微服务4\分布式事务\servicecomb-pack-csharp-omega_v0.1\src\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.AssemblyInfoInputs.cache
+D:\公开课专题\微服务专题\微服务4\分布式事务\servicecomb-pack-csharp-omega_v0.1\src\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.AssemblyInfo.cs
+D:\公开课专题\微服务专题\微服务4\分布式事务\servicecomb-pack-csharp-omega_v0.1\src\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.dll
+D:\公开课专题\微服务专题\微服务4\分布式事务\servicecomb-pack-csharp-omega_v0.1\src\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.pdb
+D:\公开课专题\微服务专题\微服务4\分布式事务\servicecomb-pack-csharp-omega_v0.1\src\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.csprojAssemblyReference.cache
+D:\公开课专题\微服务专题\微服务项目\consul+polly+oclet+identityserver4+conuslconfig+saga\RuanMou.MicroService\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.deps.json
+D:\公开课专题\微服务专题\微服务项目\consul+polly+oclet+identityserver4+conuslconfig+saga\RuanMou.MicroService\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.dll
+D:\公开课专题\微服务专题\微服务项目\consul+polly+oclet+identityserver4+conuslconfig+saga\RuanMou.MicroService\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.pdb
+D:\公开课专题\微服务专题\微服务项目\consul+polly+oclet+identityserver4+conuslconfig+saga\RuanMou.MicroService\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.AssemblyInfoInputs.cache
+D:\公开课专题\微服务专题\微服务项目\consul+polly+oclet+identityserver4+conuslconfig+saga\RuanMou.MicroService\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.AssemblyInfo.cs
+D:\公开课专题\微服务专题\微服务项目\consul+polly+oclet+identityserver4+conuslconfig+saga\RuanMou.MicroService\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.dll
+D:\公开课专题\微服务专题\微服务项目\consul+polly+oclet+identityserver4+conuslconfig+saga\RuanMou.MicroService\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.pdb
+D:\公开课专题\微服务专题\微服务项目\consul+polly+oclet+identityserver4+conuslconfig+saga\RuanMou.MicroService\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netstandard2.0\Servicecomb.Saga.Omega.Abstractions.csproj.CoreCompileInputs.cache

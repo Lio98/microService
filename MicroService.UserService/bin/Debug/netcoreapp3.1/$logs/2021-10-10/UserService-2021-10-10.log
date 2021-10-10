@@ -1,0 +1,8 @@
+2021-10-10 15:32:15.8621|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5001 
+2021-10-10 15:32:15.9906|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 15:32:16.0698|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 15:32:16.1154|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.UserService 
+2021-10-10 15:42:58.6787|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5001 
+2021-10-10 15:42:58.7071|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 15:42:58.7094|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 15:42:58.7094|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.UserService 

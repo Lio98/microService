@@ -1,0 +1,44 @@
+2021-10-10 17:23:55.5186|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 17:23:55.5318|DotNetCore.CAP.Internal.ConsumerRegister|INFO|RabbitMQ consumer registered. --> amq.ctag-38gFd99tA1lnpfQPoBqUjw 
+2021-10-10 17:23:55.6204|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 17:23:55.9930|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5003 
+2021-10-10 17:23:55.9930|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:23:55.9930|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:23:55.9930|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ImageService 
+2021-10-10 17:36:39.6208|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 17:36:39.6377|DotNetCore.CAP.Internal.ConsumerRegister|INFO|RabbitMQ consumer registered. --> amq.ctag-fXz_0LuITqMjlm8QK_rgNw 
+2021-10-10 17:36:39.7274|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 17:36:40.2363|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5003 
+2021-10-10 17:36:40.2401|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:36:40.2401|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:36:40.2401|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ImageService 
+2021-10-10 17:43:40.6564|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 17:43:40.6671|DotNetCore.CAP.Internal.ConsumerRegister|INFO|RabbitMQ consumer registered. --> amq.ctag-Dw1u9N6xnzmtN-Ag423vdQ 
+2021-10-10 17:43:40.7427|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 17:43:41.0732|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5003 
+2021-10-10 17:43:41.0732|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:43:41.0732|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:43:41.0732|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ImageService 
+2021-10-10 17:44:58.6757|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 17:44:58.6982|DotNetCore.CAP.Internal.ConsumerRegister|INFO|RabbitMQ consumer registered. --> amq.ctag-5Uy9j1Zk4V3KEvZhh41UYQ 
+2021-10-10 17:44:58.8101|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 17:44:59.3450|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5003 
+2021-10-10 17:44:59.3506|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:44:59.3506|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:44:59.3506|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ImageService 
+2021-10-10 17:46:24.4660|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 17:46:24.5063|DotNetCore.CAP.Internal.ConsumerRegister|INFO|RabbitMQ consumer registered. --> amq.ctag-cBMTGOj_4n6OyMHwW0-VJw 
+2021-10-10 17:46:24.5768|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 17:46:24.9839|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5003 
+2021-10-10 17:46:24.9839|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:46:24.9897|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:46:24.9897|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ImageService 
+2021-10-10 22:28:44.4511|DotNetCore.CAP.Internal.ConsumerRegister|ERROR|Broker Unreachable Broker Unreachable
+2021-10-10 22:28:44.4741|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 22:28:48.5761|DotNetCore.CAP.Internal.ConsumerRegister|ERROR|Broker Unreachable Broker Unreachable
+2021-10-10 22:28:48.6561|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 22:28:49.2712|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5003 
+2021-10-10 22:28:49.2796|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 22:28:49.2796|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 22:28:49.2796|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ImageService 
+2021-10-10 22:29:22.6754|DotNetCore.CAP.Internal.ConsumerRegister|ERROR|Broker Unreachable Broker Unreachable

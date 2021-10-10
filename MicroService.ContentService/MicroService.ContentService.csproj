@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MethodDecorator.Fody" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroService.Core\MicroService.Core.csproj" />
+    <ProjectReference Include="..\Servicecomb.Saga.Omega.AspNetCore\Servicecomb.Saga.Omega.AspNetCore.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroService.ContentService
+build_property.ProjectDir = D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ContentService\

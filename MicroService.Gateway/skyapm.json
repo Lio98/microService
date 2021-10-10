@@ -1,0 +1,10 @@
+﻿{
+  "SkyWalking": {
+    "ServiceName": "Gateway",
+    "Transport": {
+      "gRPC": {
+        "Servers": "localhost:11800"
+      }
+    }
+  }
+}

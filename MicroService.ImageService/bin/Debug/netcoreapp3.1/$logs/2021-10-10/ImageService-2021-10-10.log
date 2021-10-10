@@ -1,0 +1,14 @@
+2021-10-10 15:32:16.7496|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 15:32:16.7618|DotNetCore.CAP.Internal.ConsumerRegister|INFO|RabbitMQ consumer registered. --> amq.ctag-WO3_m0x0ZI0iwB-kh_Ml0A 
+2021-10-10 15:32:16.8511|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 15:32:17.2320|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5003 
+2021-10-10 15:32:17.2320|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 15:32:17.2320|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 15:32:17.2320|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ImageService 
+2021-10-10 15:42:59.2541|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 15:42:59.2703|DotNetCore.CAP.Internal.ConsumerRegister|INFO|RabbitMQ consumer registered. --> amq.ctag-5SFPoPVEuKY83LdRnyWY5Q 
+2021-10-10 15:42:59.3632|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 15:42:59.8301|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5003 
+2021-10-10 15:42:59.8355|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 15:42:59.8355|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 15:42:59.8355|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.ImageService 

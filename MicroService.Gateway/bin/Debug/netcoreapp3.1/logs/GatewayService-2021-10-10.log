@@ -1,0 +1,28 @@
+2021-10-10 17:23:54.8011|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-10 17:23:54.8436|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:23:54.8524|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:23:54.8524|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-10 17:36:38.8465|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-10 17:36:38.8960|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:36:38.8960|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:36:38.8960|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-10 17:43:40.0734|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-10 17:43:40.1059|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:43:40.1059|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:43:40.1059|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-10 17:44:57.9012|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-10 17:44:57.9805|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:44:58.0052|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:44:58.0088|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-10 17:46:23.7038|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-10 17:46:23.7407|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:46:23.7407|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:46:23.7623|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-10 22:28:39.2153|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-10 22:28:39.2589|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 22:28:39.2589|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 22:28:39.2589|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-10 22:29:10.8227|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|INFO|requestId: 0HMCBV99K7VKP:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{url} 
+2021-10-10 22:29:10.8227|Ocelot.Authentication.Middleware.AuthenticationMiddleware|INFO|requestId: 0HMCBV99K7VKP:00000001, previousRequestId: no previous request id, message: No authentication needed for /AggregateService/api/Aggregate 
+2021-10-10 22:29:10.8394|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|INFO|requestId: 0HMCBV99K7VKP:00000001, previousRequestId: no previous request id, message: /{url} route does not require user to be authorised 
+2021-10-10 22:29:19.1636|Ocelot.Requester.Middleware.HttpRequesterMiddleware|INFO|requestId: 0HMCBV99K7VKP:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Aggregate 

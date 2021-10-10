@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Servicecomb.Saga.Omega.Protocol
+build_property.ProjectDir = D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\

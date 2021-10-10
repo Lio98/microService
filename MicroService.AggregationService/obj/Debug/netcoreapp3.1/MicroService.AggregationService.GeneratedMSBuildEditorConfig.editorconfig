@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroService.AggregationService
+build_property.ProjectDir = D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.AggregationService\

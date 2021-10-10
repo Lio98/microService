@@ -1,0 +1,36 @@
+2021-10-10 17:44:58.3509|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-10 17:44:58.4786|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-10 17:44:59.0318|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5000 
+2021-10-10 17:44:59.0374|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-10 17:44:59.0374|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-10 17:44:59.0374|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\MicroService.AggregationService 
+2021-10-10 17:45:06.1062|MicroService.AggregationService.Controllers.AggregateController|INFO|聚合服务开启 
+2021-10-10 17:45:06.2047|System.Net.Http.HttpClient.UserService.LogicalHandler|INFO|Start processing HTTP request GET https://localhost:5001/api/User/GetUsers 
+2021-10-10 17:45:06.2310|System.Net.Http.HttpClient.UserService.ClientHandler|INFO|Sending HTTP request GET https://localhost:5001/api/User/GetUsers 
+2021-10-10 17:45:07.4714|System.Net.Http.HttpClient.UserService.ClientHandler|INFO|Received HTTP response headers after 1236.666ms - 200 
+2021-10-10 17:45:07.4782|System.Net.Http.HttpClient.UserService.LogicalHandler|INFO|End processing HTTP request after 1280.4936ms - 200 
+2021-10-10 17:45:07.4945|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|Start processing HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=1 
+2021-10-10 17:45:07.4945|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Sending HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=1 
+2021-10-10 17:45:08.6990|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Received HTTP response headers after 1202.0631ms - 200 
+2021-10-10 17:45:08.6990|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|End processing HTTP request after 1207.7113ms - 200 
+2021-10-10 17:45:08.7155|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|Start processing HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=2 
+2021-10-10 17:45:08.7155|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Sending HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=2 
+2021-10-10 17:45:08.7619|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Received HTTP response headers after 44.1204ms - 200 
+2021-10-10 17:45:08.7619|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|End processing HTTP request after 49.9978ms - 200 
+2021-10-10 17:45:08.7619|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|Start processing HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=3 
+2021-10-10 17:45:08.7718|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Sending HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=3 
+2021-10-10 17:45:08.7718|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Received HTTP response headers after 14.4806ms - 200 
+2021-10-10 17:45:08.7874|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|End processing HTTP request after 19.0024ms - 200 
+2021-10-10 17:45:08.7874|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|Start processing HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=4 
+2021-10-10 17:45:08.7874|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Sending HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=4 
+2021-10-10 17:45:08.7874|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Received HTTP response headers after 6.0279ms - 200 
+2021-10-10 17:45:08.7874|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|End processing HTTP request after 9.4552ms - 200 
+2021-10-10 17:45:08.8076|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|Start processing HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=5 
+2021-10-10 17:45:08.8076|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Sending HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=5 
+2021-10-10 17:45:08.8076|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Received HTTP response headers after 5.3196ms - 200 
+2021-10-10 17:45:08.8076|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|End processing HTTP request after 9.1574ms - 200 
+2021-10-10 17:45:08.8210|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|Start processing HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=6 
+2021-10-10 17:45:08.8210|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Sending HTTP request GET https://localhost:5002/api/Content/GetContents?userId =0&selectType=UserId&selectTypeId=6 
+2021-10-10 17:45:08.8210|System.Net.Http.HttpClient.ContentService.ClientHandler|INFO|Received HTTP response headers after 5.9002ms - 200 
+2021-10-10 17:45:08.8210|System.Net.Http.HttpClient.ContentService.LogicalHandler|INFO|End processing HTTP request after 9.971ms - 200 
+2021-10-10 17:45:08.8337|MicroService.AggregationService.Controllers.AggregateController|INFO|聚合服务结束 
