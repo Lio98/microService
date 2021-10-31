@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D9gSvQCdwtVNgl4JYBMDSfgmyDWbY1lz6gmwmdYtXD//0GPoT6lKrIfVdGTyQve9L9EmOBWNSIRljgUjj030YA==",
+  "dgSpecHash": "ucmmtzcMdSGNkOp4LWvKNJG22k6SdZhG6FP/VWD2vW0HMpvpjXoicNFCTemDKxu6V0hKPj3nPETm4vOWdsexoQ==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj",
+  "projectFilePath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86337\\.nuget\\packages\\fody\\3.2.9\\fody.3.2.9.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\google.protobuf\\3.6.0\\google.protobuf.3.6.0.nupkg.sha512",

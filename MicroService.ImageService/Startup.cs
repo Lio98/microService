@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Servicecomb.Saga.Omega.AspNetCore.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,6 +49,19 @@ namespace MicroService.ImageService
 
             // 5、添加负载均衡
             services.AddSingleton<ILoadBalance, RandomLoadBalance>();
+
+            services.AddOmegaCore(option =>
+            {
+                // 1、设计项目
+                /* option.GrpcServerAddress = "localhost:8080"; // 1、协调中心地址
+                 option.InstanceId = Guid.NewGuid().ToString();// 2、服务实例Id
+                 option.ServiceName ="TeamService";// 3、服务名称*/
+
+                // 2、
+                option.GrpcServerAddress = Configuration.GetSection("OmegaCore").GetValue<string>("GrpcServerAddress"); // 1、协调中心地址
+                option.InstanceId = Guid.NewGuid().ToString();// 2、服务实例Id
+                option.ServiceName = Configuration.GetSection("OmegaCore").GetValue<string>("ServiceName");// 3、服务名称
+            });
 
             //6、添加rabbitmq
             services.AddCap(x =>

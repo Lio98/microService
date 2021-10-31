@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj": {}
+    "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj": {}
   },
   "projects": {
-    "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj": {
+    "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj",
+        "projectUniqueName": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj",
         "projectName": "MicroService.ContentService",
-        "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj",
+        "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj",
         "packagesPath": "C:\\Users\\86337\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\obj\\",
+        "outputPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj": {
-                "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj"
+              "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj": {
+                "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj"
               },
-              "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj": {
-                "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj"
+              "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj": {
+                "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj"
               }
             }
           }
@@ -58,6 +58,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
             },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
@@ -82,18 +86,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj": {
+    "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj",
+        "projectUniqueName": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj",
         "projectName": "MicroService.Core",
-        "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj",
+        "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj",
         "packagesPath": "C:\\Users\\86337\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\obj\\",
+        "outputPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -114,8 +118,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj": {
-                "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj"
+              "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj": {
+                "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj"
               }
             }
           }
@@ -194,6 +198,10 @@
               "target": "Package",
               "version": "[4.14.0, )"
             },
+            "Nlog.RabbitMQ.Target": {
+              "target": "Package",
+              "version": "[2.7.7, )"
+            },
             "SkyAPM.Agent.AspNetCore": {
               "target": "Package",
               "version": "[0.9.0, )"
@@ -218,18 +226,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj": {
+    "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj",
+        "projectUniqueName": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj",
         "projectName": "Servicecomb.Saga.Omega.Abstractions",
-        "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj",
+        "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj",
         "packagesPath": "C:\\Users\\86337\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\obj\\",
+        "outputPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -276,18 +284,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj": {
+    "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj",
+        "projectUniqueName": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj",
         "projectName": "Servicecomb.Saga.Omega.AspNetCore",
-        "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj",
+        "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj",
         "packagesPath": "C:\\Users\\86337\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\obj\\",
+        "outputPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -308,14 +316,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj": {
-                "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj"
+              "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj": {
+                "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj"
               },
-              "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj": {
-                "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj"
+              "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj": {
+                "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj"
               },
-              "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj": {
-                "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj"
+              "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj": {
+                "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj"
               }
             }
           }
@@ -354,18 +362,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj": {
+    "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj",
+        "projectUniqueName": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj",
         "projectName": "Servicecomb.Saga.Omega.Core",
-        "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj",
+        "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\Servicecomb.Saga.Omega.Core.csproj",
         "packagesPath": "C:\\Users\\86337\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\obj\\",
+        "outputPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -386,11 +394,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj": {
-                "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj"
+              "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj": {
+                "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Abstractions\\Servicecomb.Saga.Omega.Abstractions.csproj"
               },
-              "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj": {
-                "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj"
+              "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj": {
+                "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj"
               }
             }
           }
@@ -469,18 +477,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj": {
+    "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj",
+        "projectUniqueName": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj",
         "projectName": "Servicecomb.Saga.Omega.Protocol",
-        "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj",
+        "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj",
         "packagesPath": "C:\\Users\\86337\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\obj\\",
+        "outputPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -545,7 +553,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

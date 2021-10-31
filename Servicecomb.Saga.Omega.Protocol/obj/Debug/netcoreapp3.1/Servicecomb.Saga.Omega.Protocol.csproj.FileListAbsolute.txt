@@ -26,3 +26,13 @@ D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protoco
 D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.csproj.CoreCompileInputs.cache
 D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.dll
 D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.pdb
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\bin\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.deps.json
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\bin\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\bin\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.pdb
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.csproj.AssemblyReference.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.AssemblyInfoInputs.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.AssemblyInfo.cs
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.csproj.CoreCompileInputs.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Protocol\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.pdb

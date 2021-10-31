@@ -1,0 +1,12 @@
+2021-10-16 16:43:42.7378|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-16 16:43:42.7745|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-16 16:43:42.7745|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-16 16:43:42.7745|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-16 16:46:54.4635|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5009 
+2021-10-16 16:46:54.5209|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-16 16:46:54.5209|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-16 16:46:54.5209|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\MicroService.Gateway 
+2021-10-16 16:47:06.1710|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|INFO|requestId: 0HMCGG641BOJ8:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{url} 
+2021-10-16 16:47:06.1784|Ocelot.Authentication.Middleware.AuthenticationMiddleware|INFO|requestId: 0HMCGG641BOJ8:00000001, previousRequestId: no previous request id, message: No authentication needed for /AggregateService/api/Aggregate 
+2021-10-16 16:47:06.1784|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|INFO|requestId: 0HMCGG641BOJ8:00000001, previousRequestId: no previous request id, message: /{url} route does not require user to be authorised 
+2021-10-16 16:47:13.8912|Ocelot.Requester.Middleware.HttpRequesterMiddleware|INFO|requestId: 0HMCGG641BOJ8:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:5000/api/Aggregate 

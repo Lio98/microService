@@ -3,6 +3,7 @@ using MicroService.ContentService.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +16,12 @@ namespace MicroService.ContentService.Controllers
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryService categoryService;
+        private ILogger logger;
 
-        public CategoryController(ICategoryService categoryService)
+        public CategoryController(ICategoryService categoryService, ILogger<CategoryController> logger)
         {
             this.categoryService = categoryService;
+            this.logger = logger;
         }
 
         [HttpGet("GetCategorys")]

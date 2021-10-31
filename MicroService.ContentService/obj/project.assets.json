@@ -793,6 +793,13 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -969,6 +976,20 @@
         },
         "runtime": {
           "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
+      "Nlog.RabbitMQ.Target/2.7.7": {
+        "type": "package",
+        "dependencies": {
+          "NLog": "4.5.11",
+          "Newtonsoft.Json": "11.0.2",
+          "RabbitMQ.Client": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Nlog.RabbitMQ.Target.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nlog.RabbitMQ.Target.dll": {}
         }
       },
       "NLog.Web.AspNetCore/4.14.0": {
@@ -2754,6 +2775,7 @@
           "Microsoft.Extensions.Http.Polly": "5.0.1",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0",
           "NLog.Web.AspNetCore": "4.14.0",
+          "Nlog.RabbitMQ.Target": "2.7.7",
           "Servicecomb.Saga.Omega.AspNetCore": "1.0.0",
           "SkyAPM.Agent.AspNetCore": "0.9.0",
           "Winton.Extensions.Configuration.Consul": "3.1.2"
@@ -3986,6 +4008,85 @@
         "runtime.json"
       ]
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
+      "sha512": "1jHxWlSi6/ryWODk6SUjsZPHk/BdsucxqhIi1szEzwc84e8nvZWF45qRXcT2gWPISJ3Ybbyg2LsNG6yX8r7VuA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.11.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.md",
+        "ThirdPartyNotices.txt",
+        "build/Container.props",
+        "build/Container.targets",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
+        "build/Rules/GeneralBrowseObject.xaml",
+        "build/Rules/cs-CZ/GeneralBrowseObject.xaml",
+        "build/Rules/de-DE/GeneralBrowseObject.xaml",
+        "build/Rules/es-ES/GeneralBrowseObject.xaml",
+        "build/Rules/fr-FR/GeneralBrowseObject.xaml",
+        "build/Rules/it-IT/GeneralBrowseObject.xaml",
+        "build/Rules/ja-JP/GeneralBrowseObject.xaml",
+        "build/Rules/ko-KR/GeneralBrowseObject.xaml",
+        "build/Rules/pl-PL/GeneralBrowseObject.xaml",
+        "build/Rules/pt-BR/GeneralBrowseObject.xaml",
+        "build/Rules/ru-RU/GeneralBrowseObject.xaml",
+        "build/Rules/tr-TR/GeneralBrowseObject.xaml",
+        "build/Rules/zh-CN/GeneralBrowseObject.xaml",
+        "build/Rules/zh-TW/GeneralBrowseObject.xaml",
+        "build/ToolsTarget.props",
+        "build/ToolsTarget.targets",
+        "icon.png",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Tasks.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/utils/KillProcess.exe",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
+      ]
+    },
     "Microsoft.Win32.Primitives/4.3.0": {
       "sha512": "9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "type": "package",
@@ -4275,6 +4376,19 @@
         "lib/netstandard2.0/NLog.Extensions.Logging.xml",
         "nlog.extensions.logging.1.7.4.nupkg.sha512",
         "nlog.extensions.logging.nuspec"
+      ]
+    },
+    "Nlog.RabbitMQ.Target/2.7.7": {
+      "sha512": "Sp7t15Oy2Ys+dH0euSbhZO5vNMkYtikVyVjgbuhi2A2U6IfrSLjneLYD3KKqBJFsGrqqNkuVAQTq4SR3uFPejQ==",
+      "type": "package",
+      "path": "nlog.rabbitmq.target/2.7.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Nlog.RabbitMQ.Target.dll",
+        "lib/netstandard2.0/Nlog.RabbitMQ.Target.dll",
+        "nlog.rabbitmq.target.2.7.7.nupkg.sha512",
+        "nlog.rabbitmq.target.nuspec"
       ]
     },
     "NLog.Web.AspNetCore/4.14.0": {
@@ -8689,6 +8803,7 @@
       "MethodDecorator.Fody >= 1.1.1",
       "MicroService.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1",
       "MySql.EntityFrameworkCore >= 5.0.5",
       "Servicecomb.Saga.Omega.AspNetCore >= 1.0.0"
     ]
@@ -8700,11 +8815,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj",
+      "projectUniqueName": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj",
       "projectName": "MicroService.ContentService",
-      "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj",
+      "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\MicroService.ContentService.csproj",
       "packagesPath": "C:\\Users\\86337\\.nuget\\packages\\",
-      "outputPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\obj\\",
+      "outputPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.ContentService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8725,11 +8840,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj": {
-              "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj"
+            "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj": {
+              "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj"
             },
-            "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj": {
-              "projectPath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj"
+            "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj": {
+              "projectPath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.AspNetCore\\Servicecomb.Saga.Omega.AspNetCore.csproj"
             }
           }
         }
@@ -8751,6 +8866,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.10, )"
+          },
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "target": "Package",
+            "version": "[1.11.1, )"
           },
           "MySql.EntityFrameworkCore": {
             "target": "Package",
@@ -8775,7 +8894,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

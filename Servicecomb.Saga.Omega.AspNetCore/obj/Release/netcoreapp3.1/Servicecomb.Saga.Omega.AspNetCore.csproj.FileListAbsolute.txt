@@ -1,0 +1,16 @@
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.deps.json
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.pdb
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.Core.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.pdb
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.Core.pdb
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\bin\Release\netcoreapp3.1\Servicecomb.Saga.Omega.Protocol.pdb
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\obj\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.csproj.AssemblyReference.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\obj\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\obj\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.AssemblyInfoInputs.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\obj\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.AssemblyInfo.cs
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\obj\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.csproj.CoreCompileInputs.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\obj\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.AspNetCore\obj\Release\netcoreapp3.1\Servicecomb.Saga.Omega.AspNetCore.pdb

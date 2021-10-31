@@ -1,0 +1,15 @@
+{
+  "ReRoutes": [],
+  "Aggregates": [],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "consul",
+      "Port": 8500,
+      "Type": "Consul"
+    },
+    "LoadBalancerOptions": {
+      "Type": "LeastConnection"
+    },
+    "DownstreamScheme": "http"
+  }
+}

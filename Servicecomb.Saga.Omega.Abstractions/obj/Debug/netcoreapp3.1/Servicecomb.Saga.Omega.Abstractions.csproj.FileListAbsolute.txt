@@ -26,3 +26,13 @@ D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstrac
 D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.csproj.CoreCompileInputs.cache
 D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.dll
 D:\Codes\C#\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.pdb
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.deps.json
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\bin\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.pdb
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.csproj.AssemblyReference.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.AssemblyInfoInputs.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.AssemblyInfo.cs
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.csproj.CoreCompileInputs.cache
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.dll
+D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\Servicecomb.Saga.Omega.Abstractions\obj\Debug\netcoreapp3.1\Servicecomb.Saga.Omega.Abstractions.pdb

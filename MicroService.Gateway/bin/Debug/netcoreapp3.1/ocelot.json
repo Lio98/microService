@@ -2,12 +2,24 @@
   "Routes": [
     {
       "UpstreamPathTemplate": "/AggregateService/{url}",
-      "UpstreamHttpMethod": [ "Get","Post" ],
+      "UpstreamHttpMethod": [ "Get", "Post" ],
       "DownstreamPathTemplate": "/{url}",
       "DownstreamScheme": "https",
       "ServiceName": "AggregateService",
       "LoadBalancerOptions": {
         "Type": "LeastConnection"
+      },
+      "GlobalConfiguration": {
+        "ServiceDiscoveryProvider": {
+          "Host": "localhost",
+          "Port": 8500,
+          //由Consul提供服务发现
+          "Type": "Consul"
+        },
+        "RateLimitOptions": {
+          "QuotaExceededMessage": "您的请求量超过了配额1/5分钟", //限流以后的提示信息
+          "HttpStatusCode": 666 //超出配额时，返回的http状态码
+        }
       }
     }
   ]

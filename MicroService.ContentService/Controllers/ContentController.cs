@@ -4,6 +4,7 @@ using MicroService.ContentService.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Servicecomb.Saga.Omega.Abstractions.Transaction;
 using System;
 using System.Collections.Generic;
@@ -17,15 +18,18 @@ namespace MicroService.ContentService.Controllers
     public class ContentController : ControllerBase
     {
         private readonly IContentService contentService;
+        private readonly ILogger logger;
 
-        public ContentController(IContentService contentService) 
+        public ContentController(IContentService contentService, ILogger<ContentController> logger) 
         {
             this.contentService = contentService;
+            this.logger = logger;
         }
 
         [HttpGet("GetContents")]
         public ActionResult<IEnumerable<Content>> GetContents(int id, ContentSelectType selectType,int selectTypeId)
         {
+            logger.LogInformation("内容查询开始");
             switch (id) 
             {
                 case 0:
@@ -45,6 +49,7 @@ namespace MicroService.ContentService.Controllers
         [HttpGet("GetContent")]
         public ActionResult<Content> GetContent(int id)
         {
+            logger.LogInformation($"内容查询开始:ID={id}");
             var content = contentService.GetContentById(id);
             if (content == null)
             {

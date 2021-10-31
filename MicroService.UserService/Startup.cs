@@ -1,4 +1,4 @@
-using MicroService.UserService.Context;
+ï»¿using MicroService.UserService.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,30 +34,34 @@ namespace MicroService.UserService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // 1¡¢×¢²áÉÏÏÂÎÄµ½IOCÈİÆ÷
+            // 1ã€æ³¨å†Œä¸Šä¸‹æ–‡åˆ°IOCå®¹å™¨
             services.AddDbContext<UserContext>(options =>
             {
                 options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            // 2¡¢×¢²áÓÃ»§service
+            // 2ã€æ³¨å†Œç”¨æˆ·service
             services.AddScoped<IUserService, UserServiceImpl>();
 
-            // 3¡¢×¢²áÓÃ»§²Ö´¢
+            // 3ã€æ³¨å†Œç”¨æˆ·ä»“å‚¨
             services.AddScoped<IUserRepository, UserRepository>();
 
-            // 4¡¢Ìí¼Ó·şÎñ×¢²áÌõ¼ş
+            // 4ã€æ·»åŠ æœåŠ¡æ³¨å†Œæ¡ä»¶
             services.AddConsulRegistry(Configuration);
 
             services.AddSingleton<ILoadBalance, RandomLoadBalance>();
 
-            // 5¡¢×¢²ásaga·Ö²¼Ê½ÊÂÎñ¼¯ÈºÖ§³Ö
-            //services.AddOmegaCore(option =>
-            //{
-            //    option.GrpcServerAddress = "localhost:8081"; // 1¡¢Ğ­µ÷ÖĞĞÄµØÖ·
-            //    option.InstanceId = Guid.NewGuid().ToString();// 2¡¢·şÎñÊµÀıId
-            //    option.ServiceName = "UserService";// 3¡¢·şÎñÃû³Æ
-            //});
+            // 5ã€æ³¨å†Œsagaåˆ†å¸ƒå¼äº‹åŠ¡é›†ç¾¤æ”¯æŒ
+            services.AddOmegaCore(option =>
+            {
+                //    option.GrpcServerAddress = "localhost:8081"; // 1ã€åè°ƒä¸­å¿ƒåœ°å€
+                //    option.InstanceId = Guid.NewGuid().ToString();// 2ã€æœåŠ¡å®ä¾‹Id
+                //    option.ServiceName = "UserService";// 3ã€æœåŠ¡åç§°
+                option.GrpcServerAddress = Configuration.GetSection("OmegaCore").GetValue<string>("GrpcServerAddress"); // 1ã€åè°ƒä¸­å¿ƒåœ°å€
+                option.InstanceId = Guid.NewGuid().ToString();// 2ã€æœåŠ¡å®ä¾‹Id
+                option.ServiceName = Configuration.GetSection("OmegaCore").GetValue<string>("ServiceName");// 3ã€æœåŠ¡åç§°
+            });
+
             //services.AddOmegaCoreCluster("servicecomb-alpha-server", "UserService");
 
             services.AddControllers();
@@ -73,7 +77,7 @@ namespace MicroService.UserService
 
             app.UseHttpsRedirection();
 
-            // 1¡¢consul·şÎñ×¢²á
+            // 1ã€consulæœåŠ¡æ³¨å†Œ
             app.UseConsulRegistry();
 
             app.UseRouting();

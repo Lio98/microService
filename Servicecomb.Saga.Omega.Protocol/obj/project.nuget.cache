@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OMuXQ0d7sFHPX6OewDu2O57u4MnFkGBSXVEAaqqtlL7yR78h9xW5jDzMY/FdMzLeU9Pt1BnmCNTbKbZYf/SKsg==",
+  "dgSpecHash": "FD3h/TVQs9vRx+ra/Ny3NdJEIwVD+VCxv6RSbWQg1bZ+AnhDT7w4Mg9lDaD2Zt/ldbUAnR+zgBLgRdePCbWM8Q==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj",
+  "projectFilePath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\Servicecomb.Saga.Omega.Protocol\\Servicecomb.Saga.Omega.Protocol.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86337\\.nuget\\packages\\google.protobuf\\3.6.0\\google.protobuf.3.6.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\google.protobuf.tools\\3.6.0\\google.protobuf.tools.3.6.0.nupkg.sha512",

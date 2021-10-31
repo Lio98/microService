@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Servicecomb.Saga.Omega.Abstractions.Transaction;
 using System;
 using System.Collections.Generic;
@@ -18,11 +19,12 @@ namespace MicroService.UserService.Controllers
     {
         private readonly IUserService userService;
         private readonly IConfiguration configuration;
-
-        public UserController(IUserService userService, IConfiguration configuration) 
+        private readonly ILogger logger;
+        public UserController(IUserService userService, IConfiguration configuration,ILogger<UserController> logger) 
         {
             this.userService = userService;
             this.configuration = configuration;
+            this.logger = logger;
         }
 
         /// <summary>
@@ -33,6 +35,7 @@ namespace MicroService.UserService.Controllers
         [HttpGet("GetUsers")]
         public ActionResult<IEnumerable<User>> GetUsers() 
         {
+            logger.LogInformation("用户查询开始");
             bool.TryParse(configuration.GetSection("QueryCache").Value,out bool queryCache);
             if (queryCache)
             {

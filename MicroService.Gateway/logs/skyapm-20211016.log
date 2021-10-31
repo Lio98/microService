@@ -1,0 +1,61 @@
+2021-10-16 16:41:58.598 +08:00 [Gateway] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-10-16 16:41:58.644 +08:00 [Gateway] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-10-16 16:41:58.644 +08:00 [Gateway] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-10-16 16:41:58.644 +08:00 [Gateway] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2021-10-16 16:41:58.644 +08:00 [Gateway] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-10-16 16:41:58.645 +08:00 [Gateway] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-10-16 16:41:58.645 +08:00 [Gateway] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-10-16 16:41:58.645 +08:00 [Gateway] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2021-10-16 16:41:58.834 +08:00 [Gateway] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-10-16 16:41:58.835 +08:00 [Gateway] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-10-16 16:43:41.898 +08:00 [Gateway] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-10-16 16:43:41.959 +08:00 [Gateway] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-10-16 16:43:41.959 +08:00 [Gateway] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-10-16 16:43:41.959 +08:00 [Gateway] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2021-10-16 16:43:41.959 +08:00 [Gateway] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-10-16 16:43:41.959 +08:00 [Gateway] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-10-16 16:43:41.960 +08:00 [Gateway] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-10-16 16:43:41.960 +08:00 [Gateway] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2021-10-16 16:43:42.041 +08:00 [Gateway] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-10-16 16:43:42.041 +08:00 [Gateway] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-10-16 16:43:52.190 +08:00 [Gateway] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-10-16 16:43:56.990 +08:00 [Gateway] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-10-16 16:46:53.023 +08:00 [Gateway] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-10-16 16:46:53.141 +08:00 [Gateway] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-10-16 16:46:53.142 +08:00 [Gateway] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-10-16 16:46:53.142 +08:00 [Gateway] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2021-10-16 16:46:53.143 +08:00 [Gateway] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-10-16 16:46:53.143 +08:00 [Gateway] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-10-16 16:46:53.143 +08:00 [Gateway] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-10-16 16:46:53.145 +08:00 [Gateway] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2021-10-16 16:46:53.295 +08:00 [Gateway] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2021-10-16 16:46:53.295 +08:00 [Gateway] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2021-10-16 16:47:03.544 +08:00 [Gateway] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-10-16 16:47:06.239 +08:00 [Gateway] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2021-10-16 16:47:08.179 +08:00 [Gateway] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-10-16 16:47:18.200 +08:00 [Gateway] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-10-16 16:47:23.161 +08:00 [Gateway] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-10-16 16:47:33.182 +08:00 [Gateway] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-10-16 16:47:38.164 +08:00 [Gateway] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-10-16 16:47:48.176 +08:00 [Gateway] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-10-16 16:47:53.173 +08:00 [Gateway] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].

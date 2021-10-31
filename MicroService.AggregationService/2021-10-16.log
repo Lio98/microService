@@ -1,0 +1,8 @@
+2021-10-16 11:16:18.9166|DotNetCore.CAP.Processor.CapProcessingServer|INFO|Starting the processing server. 
+2021-10-16 11:16:19.0314|DotNetCore.CAP.Internal.Bootstrapper|INFO|### CAP started! 
+2021-10-16 11:16:19.7096|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5000 
+2021-10-16 11:16:19.7582|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2021-10-16 11:16:19.7971|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2021-10-16 11:16:19.8174|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\Codes\C#\BlogSeries\BlogMicroService\BlogMicroServiceCode\MicroService.AggregationService 
+2021-10-16 11:16:23.3545|MicroService.AggregationService.Controllers.AggregateController|INFO|聚合服务开启 
+2021-10-16 11:16:23.3623|MicroService.AggregationService.Controllers.AggregateController|INFO|聚合服务结束 

@@ -52,12 +52,15 @@ namespace MicroService.ContentService
             services.AddSingleton<ILoadBalance, RandomLoadBalance>();
 
             // 5、注册saga分布式事务集群支持
-            //services.AddOmegaCore(option =>
-            //{
-            //    option.GrpcServerAddress = "localhost:8081"; // 1、协调中心地址
-            //    option.InstanceId = Guid.NewGuid().ToString();// 2、服务实例Id
-            //    option.ServiceName = "ContentService";// 3、服务名称
-            //});
+            services.AddOmegaCore(option =>
+            {
+                //option.GrpcServerAddress = "localhost:8081"; // 1、协调中心地址
+                //option.InstanceId = Guid.NewGuid().ToString();// 2、服务实例Id
+                //option.ServiceName = "ContentService";// 3、服务名称
+                option.GrpcServerAddress = Configuration.GetSection("OmegaCore").GetValue<string>("GrpcServerAddress"); // 1、协调中心地址
+                option.InstanceId = Guid.NewGuid().ToString();// 2、服务实例Id
+                option.ServiceName = Configuration.GetSection("OmegaCore").GetValue<string>("ServiceName");// 3、服务名称
+            });
             //services.AddOmegaCoreCluster("servicecomb-alpha-server", "ContentService");
 
             services.AddControllers();

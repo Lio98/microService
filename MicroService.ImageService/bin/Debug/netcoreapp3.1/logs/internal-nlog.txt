@@ -1,0 +1,12 @@
+2021-10-16 14:04:01.5823 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'allfile' not found for logging rule: *.
+2021-10-16 14:04:01.6171 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logstash
+2021-10-16 14:07:26.2546 Error NetworkTarget(Name=logstash): Error when sending. Exception: System.IO.IOException: Error: ConnectionRefused
+2021-10-16 14:07:26.2546 Error NetworkTarget(Name=logstash): Error when sending. Exception: System.IO.IOException: Error: ConnectionRefused
+2021-10-16 14:07:26.3531 Error NetworkTarget(Name=logstash): Error when sending. Exception: System.IO.IOException: Error: ConnectionRefused
+2021-10-16 14:07:26.8072 Error NetworkTarget(Name=logstash): Error when sending. Exception: System.IO.IOException: Error: ConnectionRefused
+2021-10-16 14:07:26.8072 Error NetworkTarget(Name=logstash): Error when sending. Exception: System.IO.IOException: Error: ConnectionRefused
+2021-10-16 14:07:26.8072 Error NetworkTarget(Name=logstash): Error when sending. Exception: System.IO.IOException: Error: ConnectionRefused
+2021-10-16 14:07:26.8072 Error NetworkTarget(Name=logstash): Error when sending. Exception: System.IO.IOException: Error: ConnectionRefused
+2021-10-16 16:41:56.2225 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'RabbitMQTarget' not found for logging rule: *.
+2021-10-16 16:43:41.6030 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'RabbitMQTarget' not found for logging rule: *.
+2021-10-16 16:46:52.0466 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'RabbitMQTarget' not found for logging rule: *.

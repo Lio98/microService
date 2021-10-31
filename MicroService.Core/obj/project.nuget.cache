@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lUhiTsUkkfSgUzGBcDXWDmdaUkT6Qjp98kINaUGMRpUq9ySnjic25ag5K7olod4vZ9hyHqenYnwTArvENLOVeQ==",
+  "dgSpecHash": "EpAvWzLiMLzcTBva/AY3dwapVGLPMUccxgkpKTpBICiPQmrlFygwXVUHU1Sm1M35xxfgrzJpBSMe8Xin4mO0+g==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj",
+  "projectFilePath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.Core\\MicroService.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86337\\.nuget\\packages\\aspectcore.extensions.reflection\\1.2.0\\aspectcore.extensions.reflection.1.2.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\consul\\1.6.10.3\\consul.1.6.10.3.nupkg.sha512",
@@ -69,6 +69,7 @@
     "C:\\Users\\86337\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\nlog.extensions.logging\\1.7.4\\nlog.extensions.logging.1.7.4.nupkg.sha512",
+    "C:\\Users\\86337\\.nuget\\packages\\nlog.rabbitmq.target\\2.7.7\\nlog.rabbitmq.target.2.7.7.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\nlog.web.aspnetcore\\4.14.0\\nlog.web.aspnetcore.4.14.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",

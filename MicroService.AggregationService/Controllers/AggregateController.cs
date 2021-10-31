@@ -36,12 +36,12 @@ namespace MicroService.AggregationService.Controllers
         {
             logger.LogInformation("聚合服务开启");
             var users = await userServiceClient.GetUsers();
-            foreach(var user in users)
+            foreach (var user in users)
             {
                 var contents = await contentServiceClient.GetContents(0, ContentSelectType.UserId, user.FId);
                 user.FContents = contents;
             }
-            logger.LogInformation("聚合服务结束");
+            logger.LogError("聚合服务结束");
             return Ok(users);
         }
 

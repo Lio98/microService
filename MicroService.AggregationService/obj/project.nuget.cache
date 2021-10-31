@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pCAf9Qg+busYllhudcss5noWWsEqxG8lO4MzFKROf0EXyZXzr3FJcmwL+XDpGBx8m+hZ8YyWUYCZVA0KapGSyw==",
+  "dgSpecHash": "bRKSTiD1ywwaGvvgZ6HFR5FCFqK69JwxUQeE12ilEAMHMllBJKhAqScGMtgbQgRcZ/3jVDzeIuYLgM4yBnn0tw==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\C#\\BlogMicroService\\BlogMicroServiceCode\\MicroService.AggregationService\\MicroService.AggregationService.csproj",
+  "projectFilePath": "D:\\Codes\\C#\\BlogSeries\\BlogMicroService\\BlogMicroServiceCode\\MicroService.AggregationService\\MicroService.AggregationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86337\\.nuget\\packages\\aspectcore.extensions.reflection\\1.2.0\\aspectcore.extensions.reflection.1.2.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
@@ -66,6 +66,7 @@
     "C:\\Users\\86337\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\86337\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
@@ -76,6 +77,7 @@
     "C:\\Users\\86337\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\nlog.extensions.logging\\1.7.4\\nlog.extensions.logging.1.7.4.nupkg.sha512",
+    "C:\\Users\\86337\\.nuget\\packages\\nlog.rabbitmq.target\\2.7.7\\nlog.rabbitmq.target.2.7.7.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\nlog.web.aspnetcore\\4.14.0\\nlog.web.aspnetcore.4.14.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\86337\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
